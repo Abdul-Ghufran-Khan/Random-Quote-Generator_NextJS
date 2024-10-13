@@ -17,7 +17,7 @@ export default async function Home() {
     <CardHeader>
       <CardTitle className='text-2xl font-bold  text-slate-100'>Quote</CardTitle>
       <CardDescription className='text-3xl p-8 text-slate-100'>{Quotes.quote}</CardDescription>
-      <CardDescription className='text-xl p-3  text-slate-100' >Quote By : <span className='underline font-semibold'>{Quotes.author}</span></CardDescription>
+      <CardDescription className='text-xl p-3  text-slate-100' >Quote By : <span className='underline text-2xl font-semibold'>{Quotes.author}</span></CardDescription>
     </CardHeader>
     <CardContent>
 
