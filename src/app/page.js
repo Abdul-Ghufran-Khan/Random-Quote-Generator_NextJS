@@ -15,7 +15,7 @@ export default async function Home() {
     <div className='flex justify-center items-center p-26 min-h-screen bg-slate-900'>
     <Card className="w-[400px] text-center bg-slate-800">
     <CardHeader>
-      <CardTitle className='text-2xl font-bold  text-slate-100'>Quote</CardTitle>
+      <CardTitle className='text-3xl font-bold  text-slate-100'>Quote</CardTitle>
       <CardDescription className='text-3xl p-8 text-slate-100'>{Quotes.quote}</CardDescription>
       <CardDescription className='text-xl p-3  text-slate-100' >Quote By : <span className='underline text-2xl font-semibold'>{Quotes.author}</span></CardDescription>
     </CardHeader>
